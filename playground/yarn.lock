@@ -1749,6 +1749,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
 
+"@types/lodash@^4.14.165":
+  version "4.14.172"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.172.tgz#aad774c28e7bfd7a67de25408e03ee5a8c3d028a"
+  integrity sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -6565,7 +6570,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.11, lodash-es@^4.17.14:
+lodash-es@^4.17.11, lodash-es@^4.17.14, lodash-es@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
@@ -7181,6 +7186,11 @@ nano-time@1.0.0:
   integrity sha1-sFVPaa2J4i0JB/ehKwmTpdlhN+8=
   dependencies:
     big-integer "^1.6.16"
+
+nanoclone@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/nanoclone/-/nanoclone-0.2.1.tgz#dd4090f8f1a110d26bb32c49ed2f5b9235209ed4"
+  integrity sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA==
 
 nanoid@^3.1.20:
   version "3.1.20"
@@ -8147,7 +8157,7 @@ property-expr@^1.5.0:
   resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-1.5.1.tgz#22e8706894a0c8e28d58735804f6ba3a3673314f"
   integrity sha512-CGuc0VUTGthpJXL36ydB6jnbyOf/rAHFvmVrJlH+Rg0DqqLFQGAP6hIaxD/G0OAmBJPhXDHuEJigrp0e0wFV6g==
 
-property-expr@^2.0.2:
+property-expr@^2.0.2, property-expr@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.4.tgz#37b925478e58965031bb612ec5b3260f8241e910"
   integrity sha512-sFPkHQjVKheDNnPvotjQmm3KD3uk1fWKUN7CrpdbwmUx3CrG3QiM8QpTSimvig5vTXmTvjz7+TDvXOI9+4rkcg==
@@ -9886,10 +9896,10 @@ strapi-admin@^3.6.2:
     webpackbar "^4.0.0"
     yup "^0.27.0"
 
-strapi-connector-bookshelf@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.6.2.tgz#be8d80d2203d7b509a441b2564eddedade975944"
-  integrity sha512-TEhg0NHzIlY1ynoxlcbdvfjHitmQSvelitffntZQUPEYURA2cv/EHs9EuMNAnGyry1C8zpyF6Zsk6/93O1hHQw==
+strapi-connector-bookshelf@^3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.6.6.tgz#03afba85f3c14c945c07bdcfc07cdc0f30da5046"
+  integrity sha512-6lYTckuNjG2oKoQ7N5BlVGr1xv18ZSsjifQ94weXFVeJRMwJvMv2wKlRLsZek7YZ6fzNMws4PQR4VxP2sWJvUg==
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.19.0"
@@ -9898,7 +9908,7 @@ strapi-connector-bookshelf@^3.6.2:
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.2"
-    strapi-utils "3.6.2"
+    strapi-utils "3.6.6"
 
 strapi-database@3.6.2:
   version "3.6.2"
@@ -10242,6 +10252,18 @@ strapi-utils@3.6.2:
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
+
+strapi-utils@3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.6.6.tgz#f002d96f025c9fae2f8fb4d2628e28c12037385f"
+  integrity sha512-vZavsM/6CVNecoznhqJBBOrrDMbPMSLSLqA2GgQ0DiimVLLsMC070uaROmRCkKw+DTgLqZDzi2mih0kKJXruTg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.19.0"
+    lodash "4.17.21"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "^0.32.9"
 
 strapi@^3.6.2:
   version "3.6.2"
@@ -11498,4 +11520,17 @@ yup@^0.27.0:
     lodash "^4.17.11"
     property-expr "^1.5.0"
     synchronous-promise "^2.0.6"
+    toposort "^2.0.2"
+
+yup@^0.32.9:
+  version "0.32.9"
+  resolved "https://registry.yarnpkg.com/yup/-/yup-0.32.9.tgz#9367bec6b1b0e39211ecbca598702e106019d872"
+  integrity sha512-Ci1qN+i2H0XpY7syDQ0k5zKQ/DoxO0LzPg8PAR/X4Mpj6DqaeCoIYEEjDJwhArh3Fa7GWbQQVDZKeXYlSH4JMg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@types/lodash" "^4.14.165"
+    lodash "^4.17.20"
+    lodash-es "^4.17.15"
+    nanoclone "^0.2.1"
+    property-expr "^2.0.4"
     toposort "^2.0.2"
